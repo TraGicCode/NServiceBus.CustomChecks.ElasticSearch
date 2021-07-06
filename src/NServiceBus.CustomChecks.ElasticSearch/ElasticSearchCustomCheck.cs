@@ -37,7 +37,7 @@ namespace NServiceBus.CustomChecks.ElasticSearch
                     return CheckResult.Pass;
                 }
 
-                var error = $"Ping Failed for '{_elasticSearchUri}. Error: {result.ApiCall.HttpStatusCode}";
+                var error = $"Ping Failed for '{_elasticSearchUri}'. Duration: {start.Elapsed} Error: {result.OriginalException.Message}";
                 Log.Error(error);
                 return CheckResult.Failed(error);
             }
