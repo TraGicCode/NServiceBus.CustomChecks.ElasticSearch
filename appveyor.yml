@@ -24,7 +24,7 @@ build_script:
 - ps: dotnet build --no-restore --configuration Release
 - ps: dotnet pack --no-restore --no-build --configuration Release --include-source /p:Version=$env:APPVEYOR_BUILD_VERSION
 artifacts:
-  - path: NServiceBus.CustomChecks.ElasticSearch\NServiceBus.CustomChecks.ElasticSearch.Package\bin\Release\NServiceBus.CustomChecks.ElasticSearch.*.nupkg
+  - path: NServiceBus.CustomChecks.ElasticSearch\NServiceBus.CustomChecks.ElasticSearch\bin\Release\NServiceBus.CustomChecks.ElasticSearch.*.nupkg
     name: nupkgs
 deploy:
   - provider: NuGet
