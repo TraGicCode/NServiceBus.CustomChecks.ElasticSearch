@@ -2,7 +2,20 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Title>NServiceBus.CustomChecks.ElasticSearch</Title>
+    <PackageProjectUrl>https://github.com/TraGicCode/NServiceBus.CustomChecks.ElasticSearch</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/TraGicCode/NServiceBus.CustomChecks.ElasticSearch</RepositoryUrl>
+    <PackageTags>nservicebus customcheck healthcheck elastic elasticsearch</PackageTags>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <Description>A Reusable ElasticSearch NServiceBus CustomCheck to check the availability and connectivity to the database.</Description>
+    <PackageIcon>icon.png</PackageIcon>
   </PropertyGroup>
+
+
+  <ItemGroup>
+    <None Include="..\..\images\icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
+  
 
   <ItemGroup>
     <PackageReference Include="NEST" Version="7.13.2" />
