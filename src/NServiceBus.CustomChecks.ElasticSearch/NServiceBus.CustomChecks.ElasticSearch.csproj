@@ -1,8 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-   <TargetFramework>netstandard2.0</TargetFramework>
-    <!-- <TargetFrameworks>netstandard2.0;net471</TargetFrameworks> -->
+    <TargetFrameworks>netstandard2.0;net471</TargetFrameworks>
     <Title>NServiceBus.CustomChecks.ElasticSearch</Title>
     <PackageProjectUrl>https://github.com/TraGicCode/NServiceBus.CustomChecks.ElasticSearch</PackageProjectUrl>
     <RepositoryUrl>https://github.com/TraGicCode/NServiceBus.CustomChecks.ElasticSearch</RepositoryUrl>
