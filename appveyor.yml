@@ -21,8 +21,7 @@ dotnet_csproj:
 before_build:
   - ps: dotnet restore
 build_script: 
-- ps: dotnet build --no-restore --configuration Release
-- ps: dotnet pack --no-restore --no-build --configuration Release --include-source /p:Version=$env:APPVEYOR_BUILD_VERSION
+  - ps: msbuild /property:Configuration=Release /p:Version=$env:APPVEYOR_BUILD_VERSION
 artifacts:
   - path: src\NServiceBus.CustomChecks.ElasticSearch\bin\Release\NServiceBus.CustomChecks.ElasticSearch.*.nupkg
     name: nupkgs
