@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFrameworks>netstandard2.0;net471</TargetFrameworks>
     <Title>NServiceBus.CustomChecks.ElasticSearch</Title>
     <PackageProjectUrl>https://github.com/TraGicCode/NServiceBus.CustomChecks.ElasticSearch</PackageProjectUrl>
     <RepositoryUrl>https://github.com/TraGicCode/NServiceBus.CustomChecks.ElasticSearch</RepositoryUrl>
@@ -9,6 +9,9 @@
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <Description>A Reusable ElasticSearch NServiceBus CustomCheck to check the availability and connectivity to the database.</Description>
     <PackageIcon>icon.png</PackageIcon>
+    <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies>
+    <ILRepackTargetsFile>$(SolutionDir)ILRepack.targets</ILRepackTargetsFile>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
 
@@ -18,8 +21,11 @@
   
 
   <ItemGroup>
-    <PackageReference Include="NEST" Version="7.13.2" />
+    <PackageReference Include="ILRepack.Lib.MSBuild.Task" Version="2.0.18.2" PrivateAssets="All" />
+    <PackageReference Include="NEST" Version="7.13.2" PrivateAssets="All" />
     <PackageReference Include="NServiceBus.CustomChecks" Version="3.0.1" />
   </ItemGroup>
+
+
 
 </Project>

@@ -4,7 +4,7 @@
 
 
         <ItemGroup>
-            <InputAssemblies Include="$(OutputPath)\NServiceBus.CustomChecks.ElasticSearch.dll" />
+            <InputAssemblies Include="$(OutputPath)\<%= @metadata[:module_name] %>.dll" />
             <InputAssemblies Include="$(OutputPath)\*.dll" Exclude="$(OutputPath)\NServiceBus.*.dll" />
         </ItemGroup>
 
