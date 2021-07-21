@@ -14,7 +14,7 @@
 
 ## Description
 
-A Reusable NServiceBus CustomCheck to check the availability and connectivity of .
+A Reusable NServiceBus CustomCheck to check the availability and connectivity of Elastic Search.
 
 ## How to use it
 
