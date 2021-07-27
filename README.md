@@ -1,8 +1,8 @@
 # NServiceBus.CustomChecks.ElasticSearch
 
 [![Build status](https://img.shields.io/appveyor/build/TraGicCode/NServiceBus-CustomChecks-ElasticSearch/master)](https://ci.appveyor.com/project/TraGicCode/NServiceBus-CustomChecks-ElasticSearch)
-[![Nuget](https://img.shields.io/nuget/v/NServiceBus.CustomChecks.ElasticSearch/)](https://www.nuget.org/packages/NServiceBus.CustomChecks.ElasticSearch)
-[![Nuget downloads](https://img.shields.io/nuget/dt/NServiceBus.CustomChecks.ElasticSearch/)](https://www.nuget.org/packages/NServiceBus.CustomChecks.ElasticSearch)
+[![Nuget](https://img.shields.io/nuget/v/NServiceBus.CustomChecks.ElasticSearch)](https://www.nuget.org/packages/NServiceBus.CustomChecks.ElasticSearch)
+[![Nuget downloads](https://img.shields.io/nuget/dt/NServiceBus.CustomChecks.ElasticSearch)](https://www.nuget.org/packages/NServiceBus.CustomChecks.ElasticSearch)
 [![License](https://img.shields.io/github/license/TraGicCode/NServiceBus.CustomChecks.ElasticSearch.svg)](https://github.com/TraGicCode/NServiceBus.CustomChecks.ElasticSearch/blob/master/LICENSE)
 
 #### Table of Contents
