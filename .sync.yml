@@ -1,4 +1,20 @@
 ---
+README.md:
+  description_suffix: Elastic Search
+  usage_code_block: |-
+    namespace Ordering.Endpoint.CustomChecks
+    {
+        public class OrderingElasticSearchCustomCheck : ElasticSearchCustomCheck
+        {
+            private static TimeSpan repeat = TimeSpan.FromSeconds(5);
+            private static Uri elasticSearchUri = new Uri("http://localhost:9200");
+            public OrderingElasticSearchCustomCheck(): base(elasticSearchUri, repeat)
+            {
+            
+            }
+        }
+    }
+
 directory.build.props:
   nuget-package-tags-extras:
     - elasticsearch
