@@ -1,5 +1,14 @@
 <Project>
+
+    <!-- Nuget Package Info -->
     <PropertyGroup>
+        <Title>NServiceBus.CustomChecks.ElasticSearch</Title>
+        <PackageProjectUrl>https://github.com/TraGicCode/NServiceBus.CustomChecks.ElasticSearch</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/TraGicCode/NServiceBus.CustomChecks.ElasticSearch</RepositoryUrl>
+        <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
         <PackageTags>nservicebus;customcheck;healthcheck;elasticsearch</PackageTags>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <CopyLocalLockFileAssemblies>true</CopyLocalLockFileAssemblies> <!-- Ensure nuget dependencies make it to bin directory for il-repack -->
     </PropertyGroup>
+
 </Project>
