@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.4.1](https://github.com/tragiccode/NServiceBus.CustomChecks.ElasticSearch/tree/0.4.1) (2021-08-18)
+
+[Full Changelog](https://github.com/tragiccode/NServiceBus.CustomChecks.ElasticSearch/compare/0.4.0...0.4.1)
+
+### Bugs
+
+- Bump NEST from 7.14.0 to 7.14.1 [\#27](https://github.com/TraGicCode/NServiceBus.CustomChecks.ElasticSearch/pull/27) ([dependabot[bot]](https://github.com/apps/dependabot))
+
 ## [0.4.0](https://github.com/tragiccode/NServiceBus.CustomChecks.ElasticSearch/tree/0.4.0) (2021-08-10)
 
 [Full Changelog](https://github.com/tragiccode/NServiceBus.CustomChecks.ElasticSearch/compare/0.3.0...0.4.0)
