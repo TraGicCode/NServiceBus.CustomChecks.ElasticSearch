@@ -2,7 +2,8 @@
 
     <!-- Nuget Package Info -->
     <PropertyGroup>
-        <Title>NServiceBus.CustomChecks.ElasticSearch</Title>
+        <PackageId>NServiceBus.CustomChecks.ElasticSearch</PackageId>
+        <Authors>TraGicCode</Authors>
         <PackageProjectUrl>https://github.com/TraGicCode/NServiceBus.CustomChecks.ElasticSearch</PackageProjectUrl>
         <RepositoryUrl>https://github.com/TraGicCode/NServiceBus.CustomChecks.ElasticSearch</RepositoryUrl>
         <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
