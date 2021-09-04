@@ -30,6 +30,7 @@ deploy:
     api_key:
       secure: 8v7kxS3JrrBgMLXNM8wnl4JAkAnqW3R9D4eVnqND9RsXNYGStmoDRo6ZWguydPWS
     skip_symbols: false
+    server: https://api.nuget.org/v3/index.json
     symbol_server: https://api.nuget.org/v3/index.json
     artifact: /.*(\.|\.s)(nupkg)/
     on:
