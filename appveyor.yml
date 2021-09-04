@@ -23,7 +23,7 @@ before_build:
 build_script: 
   - ps: msbuild /property:Configuration=Release /p:Version=$env:APPVEYOR_BUILD_VERSION
 artifacts:
-  - path: src\NServiceBus.CustomChecks.ElasticSearch\bin\Release\NServiceBus.CustomChecks.ElasticSearch.*nupkg
+  - path: src\NServiceBus.CustomChecks.ElasticSearch\bin\Release\NServiceBus.CustomChecks.ElasticSearch.*.nupkg
     name: nupkgs
 deploy:
   - provider: NuGet
